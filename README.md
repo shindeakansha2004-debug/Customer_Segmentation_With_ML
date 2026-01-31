@@ -1,8 +1,26 @@
-# Customer_Segmentation_With_ML
-Customer segmentation project using machine learning techniques to group customers based on behavior and demographics for better business insights.
+# Customer Segmentation With ML
 
-## Model Saving
-The trained K-Means model and scaler were saved using pickle and reused for predictions.
+A data analysis project for customer segmentation using Python, exploring customer behavior and demographics to derive actionable business insights.
 
-## Deployment
-A basic Streamlit app was created to demonstrate customer segmentation interactively.
+## Project Overview
+This project focuses on grouping customers into meaningful segments using data analysis and machine learning techniques. 
+It involves data cleaning, exploratory data analysis (EDA), feature engineering, and K-Means clustering to uncover patterns in customer behavior.
+
+## Tech Stack
+- Python
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- Scikit-learn
+- Streamlit (for interactive demonstration)
+
+## Key Highlights
+- Data cleaning and preprocessing to handle missing values and outliers
+- Exploratory Data Analysis (EDA) to visualize trends and patterns
+- Customer segmentation using K-Means clustering
+- Visualization of clusters for easy interpretation
+- Model and scaler saved using pickle for reuse in predictions
+- Interactive Streamlit app deployed to showcase segmentation results
+
+## Outcome / Insights
+- Identified distinct customer groups based on purchasing behavior and demographics
+- Insights can help businesses target marketing strategies more effectively
